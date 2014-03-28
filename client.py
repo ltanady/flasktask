@@ -4,9 +4,9 @@ from flask import Flask, url_for, session, request, jsonify
 from flask_oauthlib.client import OAuth
 
 
-CLIENT_ID = 'fpxyQP7BmYBEsnlf6PRSHRejjDf9qOg3yryn3Ur9'
-CLIENT_SECRET = 'PCdP5PmIZZjFBF0LXZFlqRByeNf8CzoSJa7VNk1RpY5TuwwBqm'
-
+CLIENT_ID = 'C3PPG4xRD3Qe14X0utgLgYU3oGuy8qvG1tMNlZ6S'
+CLIENT_SECRET = 'Wyu6HPLiPS8fFSmESg14i1vPRqJ6tQonMHhuhqmvtSFxhA7gYO'
+SERVER_HOST = 'http://107.170.211.154:49155'
 
 app = Flask(__name__)
 app.debug = True
@@ -18,10 +18,10 @@ remote = oauth.remote_app(
     consumer_key=CLIENT_ID,
     consumer_secret=CLIENT_SECRET,
     request_token_params={'scope': 'email'},
-    base_url='http://localhost:5000/api/',
+    base_url=SERVER_HOST+'/api/',
     request_token_url=None,
-    access_token_url='http://localhost:5000/oauth/token',
-    authorize_url='http://localhost:5000/oauth/authorize'
+    access_token_url=SERVER_HOST+'/oauth/token',
+    authorize_url=SERVER_HOST+'/oauth/authorize'
 )
 
 @app.route('/')
