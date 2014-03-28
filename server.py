@@ -17,8 +17,9 @@ def create_app():
     app.debug = True
     app.secret_key = 'secret'
     app.config.update({
-        # 'SQLALCHEMY_DATABASE_URI': 'sqlite:///db.sqlite',
-        'SQLALCHEMY_DATABASE_URI': 'postgres://root:Ya8oCFUelG088Ieq@172.17.42.1:49153/db'
+        'SQLALCHEMY_DATABASE_URI': 'sqlite:///db.sqlite',
+        # 'SQLALCHEMY_DATABASE_URI': 'postgres://root:Ya8oCFUelG088Ieq@172.17.42.1:49153/db'
+
     })
     db.init_app(app)
     with app.app_context():
