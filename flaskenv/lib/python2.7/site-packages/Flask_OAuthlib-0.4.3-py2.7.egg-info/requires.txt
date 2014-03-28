@@ -1,0 +1,2 @@
+Flask
+oauthlib>=0.6
