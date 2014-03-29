@@ -6,7 +6,7 @@ from flask_oauthlib.client import OAuth
 
 CLIENT_ID = '5a6DuDHJRC3iUPVvUupIy2uLOfJfPqe9NxWSagwf'
 CLIENT_SECRET = 'b5YyS5PAq3qJ0d7XiAKpMKqz8hyE2WWbRrq0Jm9nhbmDwRoYYi'
-SERVER_HOST = 'http://107.170.211.154:49156'
+SERVER_HOST = 'http://107.170.211.154:49155'
 
 app = Flask(__name__)
 app.debug = True

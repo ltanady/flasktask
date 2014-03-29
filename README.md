@@ -1,8 +1,8 @@
 Pythong Flask Task Application (With oauth2 authentication)
 ============================================================
 
-- Go to http://107.170.211.154:49156, type in any username to 'authenticate' (become a user).
-- Go to http://107.170.211.154:49156/client/new to get client_id and client_secret.
+- Go to http://107.170.211.154:49155, type in any username to 'authenticate' (become a user).
+- Go to http://107.170.211.154:49155/client/new to get client_id and client_secret.
 - Open up client.py and replace the CLIENT_ID and CLIENT_SECRET with the new client_id and client_secret.
 - Start the the client by running "./client.py" and then go to http://localhost:8000, choose yes to allow access.
 
