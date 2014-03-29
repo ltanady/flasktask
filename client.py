@@ -4,8 +4,8 @@ from flask import Flask, url_for, session, request, jsonify
 from flask_oauthlib.client import OAuth
 
 
-CLIENT_ID = 'bcP3NdWH37h2p27ynCL8Kh23a3V8L7qAkDQdXqtB'
-CLIENT_SECRET = 'LBELpHIU3xrnzLMpQ6yPBGnLwxWro4ZzzdEq2yYvzcpw0d4Giu'
+CLIENT_ID = '5a6DuDHJRC3iUPVvUupIy2uLOfJfPqe9NxWSagwf'
+CLIENT_SECRET = 'b5YyS5PAq3qJ0d7XiAKpMKqz8hyE2WWbRrq0Jm9nhbmDwRoYYi'
 SERVER_HOST = 'http://107.170.211.154:49156'
 
 app = Flask(__name__)
